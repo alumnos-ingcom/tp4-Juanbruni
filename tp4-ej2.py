@@ -3,14 +3,7 @@
 # Plantilla de ejercicio
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
-def prueba():
-    saludo="Suma lenta"
-    saludo_titulo= saludo.upper()
-    print(saludo_titulo+ "\n")
-    
-    numero = int(input("Ingrese el numero A: "))
-    otro_numero= int(input("Ingrese el numero B: "))
-    suma_lenta(numero, otro_numero)
+
 
 def suma_lenta(numero, otro_numero):
     suma_en_pantalla=0
@@ -48,6 +41,14 @@ def suma_lenta(numero, otro_numero):
 
             
     print(f"El resultado final es:  {resultado_suma}")
+def prueba():
+    saludo="Suma lenta"
+    saludo_titulo= saludo.upper()
+    print(saludo_titulo+ "\n")
+    
+    numero = int(input("Ingrese el numero A: "))
+    otro_numero= int(input("Ingrese el numero B: "))
+    suma_lenta(numero, otro_numero)
 
 if __name__ == "__main__":
     prueba()
