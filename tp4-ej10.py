@@ -7,7 +7,7 @@ def prueba():
     saludo="Palíndromo "
     saludo_titulo= saludo.upper()
     print(saludo_titulo+"\n")
-    texto=input("Ingrese su palabra o texto: ")
+    texto=input("Ingrese su palabra, texto, numero: ")
     texto=texto.lower()
     es_palindromo(texto)
     
