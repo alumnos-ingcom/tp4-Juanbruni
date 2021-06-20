@@ -37,10 +37,11 @@ def suma_lenta(numero, otro_numero):
             suma_en_pantalla = numero_menor + 1
             print(f"{numero_menor} + 1  = {suma_en_pantalla}")
             numero_menor=numero_menor+1
+    return resultado_suma
 
 
             
-    print(f"El resultado final es:  {resultado_suma}")
+    
 def prueba():
     saludo="Suma lenta"
     saludo_titulo= saludo.upper()
@@ -49,6 +50,8 @@ def prueba():
     numero = int(input("Ingrese el numero A: "))
     otro_numero= int(input("Ingrese el numero B: "))
     suma_lenta(numero, otro_numero)
-
+    resultado=suma_lenta(numero, otro_numero)
+    print(f"El resultado final es:  {resultado}")
 if __name__ == "__main__":
     prueba()
+     
